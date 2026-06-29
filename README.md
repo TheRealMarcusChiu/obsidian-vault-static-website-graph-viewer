@@ -11,6 +11,23 @@ folder anywhere.
 
 ---
 
+## Quick start
+
+```bash
+# 1. put your Obsidian notes in vault/ (replacing the sample vault)
+# 2. (optional) edit config.yml — site title, brand, giscus
+# 3. build
+node build.js
+
+# 4. view — open the file directly...
+open index.html              # macOS   (use `xdg-open` on Linux, `start` on Windows)
+
+# ...or serve it locally
+python3 -m http.server 8000  # then visit http://localhost:8000
+```
+
+---
+
 ## 1. Add your vault
 
 Put your Obsidian notes in the `vault/` folder, replacing the sample `var-log` vault.
